@@ -1,0 +1,140 @@
+h1  {
+    font-family: 'sans-serif', sans-serif;
+    margin: 20px 0;
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 0.5;
+    text-align: center;
+    color: 	#FF0000;
+
+}
+
+
+h2 {
+    font-family: 'sans-serif', sans-serif;
+    margin: 10px 0;
+    font-size: 1.75em;
+    font-weight: normal;
+    line-height: 0.5;
+    text-align: center;
+    color: 	violet;
+
+}
+
+
+h3 {
+    font-family: 'sans-serif', sans-serif;
+    margin: 10px 0;
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 0.5;
+    text-align: center;
+    color: 	black;
+
+}
+
+
+
+/* site body*/
+body { background-color: lavender; }
+.divclass-1 { color: pink}
+.divclass-1 { font-size: larger }
+#p-1 {color: red}
+.divclass-2 {border: aliceblue}
+.divclass-2 {border-style: dotted}
+#p-1 {font-weight: bold}
+
+
+header {
+    float: left;
+    margin: 0 0 20px 0;
+    padding: 2px 0 0 0;
+    width: 100%;
+
+}
+
+
+
+#logo {
+    text-align: center;
+    margin: 0;
+
+}
+
+
+
+
+
+
+/*************************************
+NAVIGATION
+**************************************/
+nav {
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0 0;
+}
+
+nav ul  {
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+
+}
+
+
+
+/*************************************
+FOOTER
+**************************************/
+
+/*************************************
+PAGE:
+**************************************/
+
+
+.myimage {
+    float:left;
+    width:150px;
+    height:175px;
+    margin:20px;
+    border-radius: 20px;
+}
+
+
+
+
+/*************************************
+PAGE: ABOUT
+**************************************/
+.profile-photo {
+    display: block;
+    max-width: 400px;
+    margin: 0 auto 30px;
+    border-radius: 5px;
+}
+
+/*************************************
+COLORS
+**************************************/
+
+
+/* logo text*/
+
+/* nav background on mobile devices*/
+nav {
+    background: #599a6b;
+}
+
+nav a, nav a:visited {
+    color: #fff;
+}
+
+/* selected nav link color*/
+nav a.selected, nav a:hover {
+    color: #32673f;
+}
